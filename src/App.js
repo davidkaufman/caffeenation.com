@@ -4,23 +4,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/images/CaffeeNationLogo.png" className="App-logo" alt="logo" />
-        <p>
+        <img src="/images/CaffeeNationBanner.png" className="App-logo" alt="logo" />
+        <p class="tagline">
           Caffeinating Commuters since 2020!
         </p>
         <p class="orange">
-          Coffee or Tea
+          Coffee <sm>or</sm> Tea
         </p>
         <p class="brown">
-          12<sm> oz . . . . . . . . . .</sm> $1.00
+          12<sm> oz . . . . . . . . . . . .</sm> $1.00
         </p>
         <p class="brown">
-          16<sm> oz . . . . . . . . . .</sm> $1.50
+          16<sm> oz . . . . . . . . . . . .</sm> $1.50
         </p>
         <p class="brown">
           <div class="multiline">
-            Fill Your<br />
-            Travel Mug $2.00
+            Fill Travel Mug<sm> . . . </sm>$2.00
           </div>
         </p>
         <p class="orange">
