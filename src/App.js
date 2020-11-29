@@ -6,11 +6,26 @@ function App() {
       <header className="App-header">
         <img src="/images/CaffeeNationLogo.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Caffeinating Commuters since 2020!
         </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" foo="bar" baz="frob">
-          Learn React!
-        </a>
+        <p class="orange">
+          Coffee or Tea
+        </p>
+        <p class="brown">
+          12<sm> oz . . . . . . . . . .</sm> $1.00
+        </p>
+        <p class="brown">
+          16<sm> oz . . . . . . . . . .</sm> $1.50
+        </p>
+        <p class="brown">
+          Fill Your Travel Mug $2.00
+        </p>
+        <p class="orange">
+          Donuts
+        </p>
+        <p class="brown">
+          $1.00
+        </p>
       </header>
     </div>
   );
