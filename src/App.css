@@ -1,14 +1,16 @@
-@import url(
-  "https://themes.googleusercontent.com/fonts/css?kit=ef17BcwrUd-BcTrhMZYR3e_glS5SlHXAWuyhDc41Bbk"
-);
+/* Bangers */
+@import url("https://themes.googleusercontent.com/fonts/css?kit=ef17BcwrUd-BcTrhMZYR3e_glS5SlHXAWuyhDc41Bbk");
+/* Quantico */
+@import url("https://themes.googleusercontent.com/fonts/css?kit=16fzJRBEzU2sS_SsM-83HGcL_7mcKrkp3ytBIP6h4E0");
+
 
 .orange,
 .c4 {
   color: #e69138;
   margin-top: 1em;
   font-weight: 700;
-  font-family: "Bangers";
-  font-size: 34pt;
+  font-family: "Quantico";
+  font-size: 1.25em;
   font-style: normal;
   text-decoration: none;
   vertical-align: baseline;
@@ -18,18 +20,22 @@
 .c3 {
   color: #783f04;
   font-weight: 400;
-  font-family: "Bangers";
-  font-size: 29pt;
+  font-family: "Quantico";
+  font-size: 1.25em;
   font-style: normal;
   text-decoration: none;
   vertical-align: baseline;
 }
 
 sm {
-  font-size: 65%;
+  font-size: 80%;
 }
 
 p { margin: .25em 0 }
+
+.tagline {
+  font-size: 80%;
+}
 
 .multiline {
   text-align:left;
@@ -40,7 +46,8 @@ p { margin: .25em 0 }
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
+  height: 15vh;
   pointer-events: none;
 }
 
