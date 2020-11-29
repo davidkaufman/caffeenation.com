@@ -18,7 +18,10 @@ function App() {
           16<sm> oz . . . . . . . . . .</sm> $1.50
         </p>
         <p class="brown">
-          Fill Your Travel Mug $2.00
+          <div class="multiline">
+            Fill Your<br />
+            Travel Mug $2.00
+          </div>
         </p>
         <p class="orange">
           Donuts
