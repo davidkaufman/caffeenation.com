@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "name": "CaffeeNation",
+ "start_url": "https://caffeenation.com/",
+ "background_color": "#000000",
+ "theme_color":"#e69138",
+ "scope": "/",
  "icons": [
   {
    "src": "\/images/icons\/android-icon-36x36.png",
