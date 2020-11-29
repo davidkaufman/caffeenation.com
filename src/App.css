@@ -1,3 +1,29 @@
+@import url(
+  "https://themes.googleusercontent.com/fonts/css?kit=ef17BcwrUd-BcTrhMZYR3e_glS5SlHXAWuyhDc41Bbk"
+);
+
+.orange,
+.c4 {
+  color: #e69138;
+  font-weight: 700;
+  font-family: "Bangers";
+  font-size: 34pt;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.brown,
+.c3 {
+  color: #783f04;
+  font-weight: 400;
+  font-family: "Bangers";
+  font-size: 29pt;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
 .App {
   text-align: center;
 }
@@ -14,18 +40,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #00f;
 }
 
 @keyframes App-logo-spin {
