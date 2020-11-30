@@ -4,7 +4,7 @@
 .orange,
 .c4 {
   color: #e69138;
-  margin-top: 1em;
+  margin-top: .25em;
   font-weight: 700;
   font-family: "Quantico";
   font-size: 1.25em;
@@ -28,14 +28,14 @@ sm {
   font-size: 80%;
 }
 
+.title {
+  font-size: 170%;
+}
+
 p { margin: .25em 0 }
 
 .tagline {
   font-size: 80%;
-}
-
-.multiline {
-  text-align:left;
 }
 
 .App {
@@ -56,12 +56,49 @@ p { margin: .25em 0 }
   flex-direction: column;
   align-items: center;
   justify-content: left;
-  xfont-size: calc(10px + 2vmin);
   color: black;
 }
 
 .App-link {
   color: #00f;
+}
+
+.menu-item input[type=checkbox] {
+  transform: scale(1.25);
+  margin-right: 1em;
+}
+
+.condiments-drawer {
+  font-size: 90%;
+  margin: 0.5em 0 0 3.5em;
+  text-align: left;
+}
+
+.condiments-drawer fieldset {
+  padding: 4px 3px 6px 9px;
+  border: solid 1px #ccc;
+}
+
+fieldset.sweeteners {
+  float: left;
+  margin-right: -3px;
+  width: 120px;
+}
+
+fieldset.creamers {
+  float: left;
+  width: 125px;
+}
+
+legend { padding: 0 0.4em }
+
+.condiments-drawer fieldset div {
+  padding-bottom: 0.25em;
+}
+
+.condiments-drawer input[type=radio] {
+  transform: scale(1.0);
+  margin-right: .5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
