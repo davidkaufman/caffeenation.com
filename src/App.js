@@ -16,6 +16,7 @@ function App() {
         <p class="orange">
           Coffee <sm>or</sm> Tea
         </p>
+
         <p class="menu-item brown">
           <input type="checkbox" name="order_item" value="coffee-12oz" id="oi-c12" />
           <label for="oi-c12" >
@@ -23,7 +24,7 @@ function App() {
           </label>
         </p>
         <p class="menu-item brown">
-          <input type="checkbox" name="order_item" value="coffee-16oz" id="oi-c16" />
+          <input type="checkbox" name="order_item" value="coffee-16oz" id="oi-c16" on/>
           <label for="oi-c16" >
             16<sm> oz . . . . . . . . . . . . .</sm> $1.50
           </label>
@@ -90,9 +91,11 @@ function App() {
             Fill Travel Mug<sm> . . . </sm>$2.00
           </label>
         </p>
+
         <p class="orange">
           Donuts
         </p>
+
         <p class="menu-item brown">
           <input type="checkbox" name="order_item" value="donut" id="oi-d" />
           <label for="oi-d" >
