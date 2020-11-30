@@ -72,6 +72,7 @@ p { margin: .25em 0 }
   font-size: 90%;
   margin: 0.5em 0 0 3.5em;
   text-align: left;
+  display: none; /* initially closed drawers */
 }
 
 .condiments-drawer fieldset {
