@@ -1,0 +1,119 @@
+/* Bangers & Quantico */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Quantico:wght@400;700&display=swap');
+
+.orange,
+.c4 {
+  color: #e69138;
+  margin-top: .25em;
+  font-weight: 700;
+  font-family: "Quantico";
+  font-size: 1.25em;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.brown,
+.c3 {
+  color: #783f04;
+  font-weight: 400;
+  font-family: "Quantico";
+  font-size: 1.25em;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+sm {
+  font-size: 80%;
+}
+
+.title {
+  font-size: 170%;
+}
+
+p { margin: .25em 0 }
+
+.tagline {
+  font-size: 80%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 40vmin; */
+  /* height: 15vh; */
+  width: 315px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  color: black;
+}
+
+.App-link {
+  color: #00f;
+}
+
+.menu-item input[type=checkbox] {
+  transform: scale(1.25);
+  margin-right: 1em;
+}
+
+.condiments-drawer {
+  font-size: 90%;
+  margin: 0.5em 0 0 3.5em;
+  text-align: left;
+  display: none; /* initially closed drawers */
+}
+
+.condiments-drawer fieldset {
+  padding: 4px 3px 6px 9px;
+  border: solid 1px #ccc;
+}
+
+fieldset.sweeteners {
+  float: left;
+  margin-right: -3px;
+  width: 120px;
+}
+
+fieldset.creamers {
+  float: left;
+  width: 125px;
+}
+
+legend { padding: 0 0.4em }
+
+.condiments-drawer fieldset div {
+  padding-bottom: 0.25em;
+}
+
+.condiments-drawer input[type=radio] {
+  transform: scale(1.0);
+  margin-right: .5em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .xApp-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
